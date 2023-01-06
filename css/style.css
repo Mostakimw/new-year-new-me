@@ -10,6 +10,7 @@
     font-size: 45px;
     color: #151414;
 }
+
 .secondary-font {
     line-height: 26px;
     font-weight: 400;
@@ -41,13 +42,14 @@
 .banner-content {
     margin-left: auto;
     margin-right: 200px;
-    width: 500px;
+    max-width: 500px;
     text-align: right;
 }
 
 .banner-title {
     font-size: 65px;
 }
+
 .banner-description {
     margin: 35px 0;
 }
@@ -63,12 +65,15 @@
     justify-content: center;
     align-items: center;
 }
+
 .failure-details {
     max-width: 450px;
 }
+
 .failure-title {
     font-size: 45px;
 }
+
 .failure-description {
     margin-top: 29px;
     margin-bottom: 20px;
@@ -81,14 +86,98 @@
 .plan {
     margin: 0 230px;
 }
+
 .my-plan-title {
     text-align: center;
     margin-bottom: 50px;
 }
+
 .plan-details {
     display: flex;
     gap: 60px;
-    justify-content: space-between;
+}
+
+.plan-items {
+    flex: 1;
+    text-align: center;
+}
+
+.plan-items img {
+    width: 95px;
+}
+
+.plan-title {
+    font-size: 22px;
+    margin: 19px 0;
 }
 
 /* My plan styles end */
+
+/* Mindset section styles start */
+
+.mindset {
+    margin: 130px 0;
+}
+
+/* Mindset section styles  end */
+
+/* footer styles start  */
+
+footer {
+    display: flex;
+    gap: 200px;
+    background-color: #151414;
+    padding: 100px 230px;
+}
+
+.footer-item {
+    flex: 1;
+}
+
+footer .future {
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+footer .email {
+    color: #ffffff;
+    margin-top: 22px;
+    margin-bottom: 14px;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+footer .mobile, .future-description {
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+footer img {
+    margin-top: 25px;
+    padding-right: 18px;
+}
+
+footer .subscribe {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 38px;
+}
+
+footer input {
+    width: 80%;
+    margin: 25px 0;
+    padding: 20px 14px;
+    font-size: 15px;
+    border: 1px solid #ffffff;
+    background-color: #151414;
+    border-radius: 6px;
+    color: #ffffff;
+}
+
+footer input::placeholder {
+    color: #ffffff;
+}
+
+/* footer styles end */
