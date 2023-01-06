@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* primary styles  */
+
+.primary-font {
+    font-weight: 700;
+    font-size: 45px;
+    color: #151414;
+}
+.secondary-font {
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #444343;
+}
+
+.btn-primary {
+    background-color: #ff3300;
+    padding: 20px 26px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+}
+
+/* Banner styles start */
+
+.banner {
+    background-image: url('../images/banner/banner1.png');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.banner-content {
+    margin-left: auto;
+    margin-right: 200px;
+    width: 500px;
+    text-align: right;
+}
+
+.banner-title {
+    font-size: 65px;
+}
+.banner-description {
+    margin: 35px 0;
+}
+
+/* Banner styles end */
+
+/* Failure styles start  */
+
+.failure {
+    margin: 130px 0;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.failure-details {
+    max-width: 450px;
+}
+.failure-title {
+    font-size: 45px;
+}
+.failure-description {
+    margin-top: 29px;
+    margin-bottom: 20px;
+}
+
+/* Failure styles start  */
+
+/* My plan styles start */
+
+.plan {
+    margin: 0 230px;
+}
+.my-plan-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.plan-details {
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+}
+
+/* My plan styles end */
