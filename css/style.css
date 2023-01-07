@@ -3,7 +3,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-/* primary styles  */
+/* primary styles start */
 
 .primary-font {
     font-weight: 700;
@@ -35,6 +35,8 @@ i {
     padding-right: 14px;
     color: #16D887;
 }
+
+/* primary styles end */
 
 /* Banner styles start */
 
@@ -137,7 +139,6 @@ i {
     align-items: center;
 }
 
-
 /* Working styles end  */
 
 /* Mindset section styles start */
@@ -147,7 +148,6 @@ i {
     padding: 100px 30px;
     background: linear-gradient(90deg, #f15618 0%, rgba(241, 91, 34, 0) 80%), url('../images/watch.png');
     background-blend-mode: normal;
-    /* background-image: url('../images/watch.png'); */
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
