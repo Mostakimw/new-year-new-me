@@ -27,6 +27,7 @@
     border: none;
     border-radius: 8px;
 }
+
 .btn-primary:hover {
     cursor: pointer;
 }
@@ -128,10 +129,12 @@ i {
 .working {
     margin: 130px 0;
 }
+
 .working-on-title {
     text-align: center;
     margin-bottom: 60px;
 }
+
 .working-items {
     display: flex;
     gap: 80px;
@@ -152,12 +155,14 @@ i {
     background-size: cover;
     border-radius: 8px;
 }
+
 .mindset-title {
     width: 470px;
     font-size: 40px;
     margin-bottom: 24px;
     color: #ffffff;
 }
+
 .call-btn {
     background-color: #ffffff;
     color: #f15618;
