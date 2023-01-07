@@ -31,6 +31,11 @@
     cursor: pointer;
 }
 
+i {
+    padding-right: 14px;
+    color: #16D887;
+}
+
 /* Banner styles start */
 
 .banner {
